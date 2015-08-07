@@ -1,0 +1,28 @@
+{
+  "name": "hive-editor-plaintext",
+  "version": "0.0.1",
+  "description": "Plaintext editor for hive.js",
+  "main": "index.js",
+  "dependencies": {
+    "gulf": "1.x"
+  , "gulf-textarea": "1.x"
+  , "ot-text": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hivejs/hive-editor-plaintext.git"
+  },
+  "keywords": [
+    "hivejs",
+    "hive.js"
+  ],
+  "author": "Marcel Klehr <mklehr@gmx.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hivejs/hive-editor-plaintext/issues"
+  },
+  "homepage": "https://github.com/hivejs/hive-editor-plaintext"
+}
