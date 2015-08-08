@@ -10,7 +10,7 @@ function setup(plugin, imports, register) {
 
   assets.registerModule(path.join(__dirname, 'client.js'))
   
-  ot.registerOTType('plaintext', textOT)
+  ot.registerOTType('text', textOT)
 
   register()
 }
