@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "gulf": "2.x",
-    "gulf-textarea": "1.x",
+    "gulf-textarea": "2.x",
     "ot-text": "*"
   },
   "scripts": {
