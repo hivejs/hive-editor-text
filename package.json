@@ -1,12 +1,12 @@
 {
   "name": "hive-editor-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plaintext editor for hive.js",
   "main": "index.js",
   "dependencies": {
-    "gulf": "1.x"
-  , "gulf-textarea": "1.x"
-  , "ot-text": "*"
+    "gulf": "2.x",
+    "gulf-textarea": "1.x",
+    "ot-text": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
