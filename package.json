@@ -1,5 +1,5 @@
 {
-  "name": "hive-editor-text",
+  "name": "hive-editor-text-textarea",
   "version": "0.1.0",
   "description": "Plaintext editor for hive.js",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hivejs/hive-editor-text.git"
+    "url": "https://github.com/hivejs/hive-editor-text-textarea.git"
   },
   "keywords": [
     "hivejs",
@@ -22,7 +22,7 @@
   "author": "Marcel Klehr <mklehr@gmx.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hivejs/hive-editor-text/issues"
+    "url": "https://github.com/hivejs/hive-editor-text-textarea/issues"
   },
-  "homepage": "https://github.com/hivejs/hive-editor-text"
+  "homepage": "https://github.com/hivejs/hive-editor-text-textarea"
 }
