@@ -6,13 +6,13 @@ module.exports.provides = []
 function setup(plugin, imports, register) {
   var editor = imports.editor
 
-  editor.registerEditor('text', function*() {
+  editor.registerEditor('Textarea', 'text', 'Just a textarea, nothing more'
+  , function*(el) {
     var textarea = document.createElement('textarea')
     textarea.setAttribute('id', 'content')
-    var editor = document.querySelector('#editor')
-    editor.appendChild(textarea)
+    el.appendChild(textarea)
 
-    editor.style['height'] = '100%'
+    el.style['height'] = '100%'
     document.body.style['position'] = 'absolute'
     document.body.style['bottom'] =
     document.body.style['top'] =
