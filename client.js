@@ -17,7 +17,7 @@ function setup(plugin, imports, register) {
     textarea.style['width'] = '100%'
     textarea.style['border'] = '0'
 
-    return bindTextarea(textarea)
+    return Promise.resolve(bindTextarea(textarea))
   })
   register()
 }
