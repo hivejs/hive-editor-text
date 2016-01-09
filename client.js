@@ -13,6 +13,7 @@ function setup(plugin, imports, register) {
     el.appendChild(textarea)
 
     el.style['height'] = '100%'
+    el.style['display'] = 'flex'
     textarea.style['height'] = '100%'
     textarea.style['width'] = '100%'
     textarea.style['border'] = '0'
