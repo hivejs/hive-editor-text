@@ -10,7 +10,7 @@ function setup(plugin, imports, register) {
 
   ui.registerModule(path.join(__dirname, 'client.js'))
 
-  ot.registerOTType('text', textOT)
+  ot.registerOTType('text/plain', textOT)
 
   register()
 }

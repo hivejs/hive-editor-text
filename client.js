@@ -6,7 +6,7 @@ module.exports.provides = []
 function setup(plugin, imports, register) {
   var editor = imports.editor
 
-  editor.registerEditor('Textarea', 'text', 'Just a textarea, nothing more'
+  editor.registerEditor('Textarea', 'text/plain', 'Just a textarea, nothing more'
   , function(el) {
     var textarea = document.createElement('textarea')
     textarea.setAttribute('id', 'content')
